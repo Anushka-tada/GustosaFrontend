@@ -214,7 +214,7 @@ useEffect(() => {
                       src={v}
                         onClick={() => setMainImage(v)}
                       className="img-fluid rounded "
-                      style={{ height: "100px", width:"100%", cursor:"pointer"}}
+                      style={{ height: "100px ", width:"100%", cursor:"pointer"}}
                     />
                   </div>
                 );
