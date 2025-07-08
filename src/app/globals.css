@@ -473,7 +473,8 @@ body {
 
 @media (max-width: 1024px) {
   .product-card {
-    width: calc(100% / 3 - 20px);
+  width: calc((100% / 3) - 20px);
+
     /* Show 3 cards */
   }
 }
@@ -602,21 +603,24 @@ body {
 
 @media (min-width: 768px) {
   .feature-product {
-    width: calc(100% / 4 - 10px);
+   width: calc((100% / 4) - 10px);
+
     /* 4 items on medium screens (tablets) */
   }
 }
 
 @media (min-width: 1024px) {
   .feature-product {
-    width: calc(100% / 6 - 10px);
+   width: calc((100% / 6) - 10px);
+
     /* 6 items on larger screens (desktops) */
   }
 }
 
 @media (max-width: 576px) {
   .feature-product {
-    width: calc(100% / 2 - 10px);
+   width: calc((100% / 2) - 10px);
+
     /* 2 items on mobile screens */
     padding: 20px 13px;
   }
@@ -3546,7 +3550,7 @@ text-align: center;
 
 /* order details page */
 
-* order status  */
+
 .order-tracker {
   list-style: none;
   padding-left: 0;
